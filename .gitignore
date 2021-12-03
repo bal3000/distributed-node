@@ -2,6 +2,9 @@
 /bin
 /**/node_modules
 
+*.key
+*.cert
+
 # Logs
 logs
 *.log
