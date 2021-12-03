@@ -1,0 +1,19 @@
+{
+  "name": "recipe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev producer-https-basic.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node-dev": "^1.1.8"
+  }
+}

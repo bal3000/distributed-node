@@ -1,0 +1,22 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-dev consumer-http-basic.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.24.1",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/node-fetch": "^2.5.12",
+    "ts-node-dev": "^1.1.8"
+  }
+}
