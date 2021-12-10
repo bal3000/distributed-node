@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "ts-node-dev consumer-http-basic.ts"
+    "start": "ts-node-dev consumer-http-basic.ts",
+    "start:graphql": "ts-node-dev consumer-graphql.ts"
   },
   "keywords": [],
   "author": "",

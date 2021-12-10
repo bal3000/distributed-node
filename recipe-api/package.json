@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev producer-https-basic.ts"
+    "start": "ts-node-dev producer-https-basic.ts",
+    "start:graphql": "ts-node-dev producer-graphql.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.24.1",
-    "fastify-gql": "5.3"
+    "fastify-gql": "5.3",
+    "graphql": "^15.8.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.11",
