@@ -1,0 +1,16 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev native-http.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "ts-node-dev": "^1.1.8"
+  }
+}
